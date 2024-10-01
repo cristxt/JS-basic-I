@@ -2,7 +2,7 @@
 
 //En el archivo index.html que tienes abierto en el navegador (preferiblemente chrome o firefox) vamos a trabajar con la consola, abre tu inspector y en la pestaña de consola, mira si puedes ver el mensaje escrito abajo.
 
-console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
+console.log('Hola soy tu consola y untas vamos a aprendejr Javascript')
 
 //Si has encontrado el mensaje puedes continuar con los ejercicios
 
@@ -10,6 +10,7 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Escribe tu código aquí
 
+console.log("Bienvenida/o al bootcamp P2 Juniors (BCN Singulars) de Factoría F5");
 
 
 
@@ -19,34 +20,68 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 //Escribe tu código aquí
 
 
+let stringVal = "ayudaaa";
+console.log ("ayudaaaa");
+let numVal = 455;
+console.log ("455");
+let booleanVal = true;
+console.log ("true");
+let nullVal = null;
+console.log ("null");
+let undefineVal = undefined;
+console.log ("undefined");
+let objectVal = {
+    colorCoche: "rojo",
+    modeloCoche: "Seat", 
+
+}
+console.log ("rojo","seat")
+
+let arrayVal = {
+    frutas:"manzanas",
+
+}
+console.log ("manzanas")
+
+
+
+
 
 
 //OPERADORES ARITMÉTICOS
 //Ejercicio 4: Crea una varible que sume 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
-
+let sumbnum1 = "1"
+let sumnum3 = "3"
+console.log (1+3);
 
 
 
 //Ejercicio 5: Crea una varible que reste 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
-
+let restnum1 = "1"
+let restnum2 = "3"
+console.log (2-4);
 
 
 
 //Ejercicio 6: Crea una varible que multiplique 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
-
+let multnum1 = "1"
+let multnum2 = "3"
+console.log (1*3);
 
 
 
 //Ejercicio 7: Crea una varible que divida 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
-
+let divnum1 = "1"
+let divnum2 = "3"
+console.log (4/3);
 
 
 
@@ -54,15 +89,18 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 // Ejercicio 8: Crea dos variables, la primera con valor 1 y la segunda con valor 2, compara ambas variables dentro de otra variable e imprime en la consola para ver el resultado.
 
 //Escribe tu código aquí
-
-
+let value1 = "1"
+let value2 = "2"
+let comparison1 = (value1==value2);
+console.log(comparison1);
 
 
 // Ejercicio 9: Crea otra variable que compare las dos primeras variables creadas en el ejercicio anterior, para que el resultado impreso en la consola sea true.
 
 //Escribe tu código aquí
 
-
+let comparison2 = (value1!=value2);
+console.log(comparison2);
 
 
 //Ejercicio 10: completa el ejercicio
