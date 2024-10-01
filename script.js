@@ -19,29 +19,26 @@ console.log("Bienvenida/o al bootcamp P2 Juniors (BCN Singulars) de Factoría F5
 
 //Escribe tu código aquí
 
-
-let stringVal = "ayudaaa";
-console.log ("ayudaaaa");
+let stringVal = "ayudaaa1";
+console.log (stringVal);
 let numVal = 455;
-console.log ("455");
+console.log (numVal);
 let booleanVal = true;
-console.log ("true");
+console.log (booleanVal);
 let nullVal = null;
-console.log ("null");
+console.log (nullVal);
 let undefineVal = undefined;
-console.log ("undefined");
+console.log (undefineVal);
 let objectVal = {
-    colorCoche: "rojo",
-    modeloCoche: "Seat", 
+    carColor: "rojo",
+    carModel: "Seat", 
 
 }
-console.log ("rojo","seat")
+console.log (objectVal)
 
-let arrayVal = {
-    frutas:"manzanas",
+let arrayVal = ["manzanas", "naranjas", "peras"]
 
-}
-console.log ("manzanas")
+console.log (arrayVal)
 
 
 
@@ -52,36 +49,36 @@ console.log ("manzanas")
 //Ejercicio 4: Crea una varible que sume 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
-let sumbnum1 = "1"
-let sumnum3 = "3"
-console.log (1+3);
+let sumnum1 = 2
+let sumnum3 = 3
+console.log (sumnum1 + sumnum3);
 
 
 
 //Ejercicio 5: Crea una varible que reste 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
-let restnum1 = "1"
-let restnum2 = "3"
-console.log (2-4);
+let restnum1 = 1
+let restnum2 = 3
+console.log (restnum1 - restnum2);
 
 
 
 //Ejercicio 6: Crea una varible que multiplique 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
-let multnum1 = "1"
-let multnum2 = "3"
-console.log (1*3);
+let multnum1 = 1
+let multnum2 = 3
+console.log (multnum1 * multnum2);
 
 
 
 //Ejercicio 7: Crea una varible que divida 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
-let divnum1 = "1"
-let divnum2 = "3"
-console.log (4/3);
+let divnum1 = 2
+let divnum2 = 5
+console.log (divnum1 / divnum2);
 
 
 
@@ -89,10 +86,11 @@ console.log (4/3);
 // Ejercicio 8: Crea dos variables, la primera con valor 1 y la segunda con valor 2, compara ambas variables dentro de otra variable e imprime en la consola para ver el resultado.
 
 //Escribe tu código aquí
-let value1 = "1"
-let value2 = "2"
+let value1 = 1
+let value2 = 2
 let comparison1 = (value1==value2);
 console.log(comparison1);
+
 
 
 // Ejercicio 9: Crea otra variable que compare las dos primeras variables creadas en el ejercicio anterior, para que el resultado impreso en la consola sea true.
@@ -103,6 +101,7 @@ let comparison2 = (value1!=value2);
 console.log(comparison2);
 
 
+
 //Ejercicio 10: completa el ejercicio
 /*
 let num1 = 15
@@ -111,6 +110,12 @@ let num2 = 20
 let comparacion = //Realiza la operación de comparación que consideres para que el resultado en consola sea true
 console.log(comparacion)
 */
+let num1 = 15
+let num2 = 20
+let comparison3 = (num1<=num2)
+console.log(comparison3)
+
+
 
 //Ejercicio 11: completa el ejercicio
 /*
@@ -120,12 +125,23 @@ let num3AsString = "1"
 let result = //Realiza la operación de comparación que consideres entre las dos variables dadas, para que el resultado en consola sea false sin usar el comparador de desigualdad
 console.log(result) 
 */
+let num3 = 1
+let num3AsString = "1"
+let result = (num3>num3AsString)
+console.log (result)
+
+
 
 //Ejercicio 12: completa el ejercicio
 /*
 let result2 = //Realiza la operación de comparación que consideres con las dos variables del ejercicio anterior para que el resultado en consola sea true.
 console.log(result2)
 */
+let num33 = 1
+let num33AsString = "1"
+let result2 = (num3==num3AsString)
+console.log (result2)
+
 
 
 //OPERADORES DE CADENAS
@@ -133,6 +149,10 @@ console.log(result2)
 
 //Escribe tu código aquí
 
+let myName = "Cristina "
+let mySurname = "Romero"
+let myFullName = (myName+mySurname)
+    console.log (myFullName)
 
 
 
